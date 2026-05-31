@@ -1,4 +1,4 @@
-package domain;
+package com.jcaa.usersmanagement.application;
 
 public class Survey {
     private int id;
@@ -45,4 +45,8 @@ public class Survey {
     public int getRechazos() { return rechazos; }
     public int getIndiferencias() { return indiferencias; }
     public String getFecha() { return fecha; }
+
+    public CharSequence getTitle() {
+        return null;
+    }
 }
